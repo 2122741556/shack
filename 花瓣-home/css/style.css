@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    min-width: 980px;
+    font-family: sans-serif;
+}
+
+.home-hua {
+    width: 100%;
+    position: absolute;
+}
+
+.home-hua .background-t {
+    width: 100%;
+    height: 500px;
+    background: url("../images/background2.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.background-t .filex {
+    width: 100%;
+    height: 50px;
+}
+
+.background-t .filex .nav {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color: rgba(0, 0, 0, .4); */
+    display: flex;
+    position: relative;
+}
+
+.filex .nav .svg-l {
+    margin: 10px 10px;
+}
+
+.filex .nav .list-c {
+    margin: 13px 34px;
+    display: flex;
+}
+
+.filex .nav .list-c a {
+    display: block;
+    font-size: 16px;
+    color: white;
+    margin-left: 30px;
+}
+
+.filex .nav .list-c a:nth-child(1) {
+    margin: 0;
+}
+
+.filex .nav .form-r {
+    width: 132px;
+    right: 0;
+    top: 20%;
+    position: absolute;
+}
+
+.filex .nav .form-r input {
+    width: 60px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+    outline: none;
+    float: left;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.filex .nav .form-r input:hover {
+    background-color: #ff0082;
+}
+
+.filex .nav .form-r .b {
+    float: right;
+}
+
+.background-t .box {
+    width: 553px;
+    height: 190px;
+    margin: 81px auto;
+    position: relative;
+}
+
+.background-t .box span {
+    width: 524px;
+    display: block;
+    font-size: 2.90em;
+    color: white;
+    margin: 0 auto;
+}
+
+.background-t .box .form-c {
+    margin: 48px auto;
+    display: flex;
+}
+
+.background-t .box .form-c .kuang {
+    width: 550px;
+    height: 42px;
+    outline: none;
+}
+
+.background-t .box .form-c .search-svg {
+    width: 25px;
+    height: 29px;
+    background: url("../images/search.png") no-repeat;
+    margin: 10px 20px;
+    right: 0;
+    position: absolute;
+    cursor: pointer;
+}
+
+.background-t .box .form-c .title {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+
+.background-t .box .form-c p {
+    display: block;
+    color: white;
+    text-align: center;
+}
+
+
+/* BANNER */
+
+.home-hua .banner {
+    width: 100%;
+    height: 1415px;
+}
+
+.home-hua .banner .box {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.banner .box .top-c {
+    width: 100%;
+    height: 65px;
+}
+
+.box .top-c hr {
+    width: 100%;
+    height: 3px;
+    border: none;
+    background-color: #c3c3c3;
+    margin-top: 31px;
+    float: left;
+}
+
+.box .top-c .title-c {
+    width: 160px;
+    height: 65px;
+    background-color: white;
+    float: left;
+    position: absolute;
+    left: 45%;
+}
+
+.box .top-c .title-c span {
+    line-height: 65px;
+    text-align: center;
+    display: block;
+    color: #808080;
+}
+
+.banner .box-b {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.banner .box-b .top-c {
+    width: 100%;
+    height: 65px;
+}
+
+.box-b .top-c hr {
+    width: 100%;
+    height: 3px;
+    border: none;
+    background-color: #c3c3c3;
+    margin-top: 31px;
+    float: left;
+}
+
+.box-b .top-c .title-c {
+    width: 160px;
+    height: 65px;
+    background-color: white;
+    float: left;
+    position: absolute;
+    left: 45%;
+}
+
+.box-b .top-c .title-c span {
+    line-height: 65px;
+    text-align: center;
+    display: block;
+    color: #808080;
+}
+
+.banner .box .images {
+    width: 100%;
+    height: 170px;
+    display: flex;
+}
+
+.box .images img {
+    width: 228px;
+    height: 164px;
+    margin: 0 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.box .images img:hover {
+    transform: scale(1.02);
+}
+
+.banner .box-b .c-image {
+    width: 1104px;
+    margin: 0 auto;
+}
+
+.box-b .c-image img {
+    width: 273px;
+    height: 273px;
+    float: left;
+    margin: 2px 0 2px 4px;
+    cursor: pointer;
+}
+
+.box-b .c-image img:hover {
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, .6);
+}
+
+.box-b .c-image img:nth-child(1),
+.box-b .c-image img:nth-child(5),
+.box-b .c-image img:nth-child(9),
+.box-b .c-image img:nth-child(13) {
+    margin: 2px 0 0 0;
+}
+
+
+/* 底部 */
+
+.home-hua .bottom {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bottom .box-t-b {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.bottom .box-t-b .top-c {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    position: relative;
+}
+
+.bottom .box-t-b .top-c hr {
+    width: 100%;
+    height: 2px;
+    background-color: #b4b4b4;
+    margin-top: 30px;
+    position: absolute;
+    border: none;
+}
+
+.bottom .box-t-b .top-c .title-b {
+    width: 665px;
+    height: 37px;
+    background-color: #e6e6e6;
+    margin: 12px auto;
+    z-index: 99;
+}
+
+.box-t-b .top-c .title-b span {
+    text-align: center;
+    line-height: 37px;
+    display: block;
+    color: #808080;
+    font-size: 18px;
+}
+
+.bottom .classify {
+    width: 100%;
+    height: 35px;
+}
+
+.bottom .classify span {
+    font-size: 16px;
+    float: left;
+    color: #000;
+    display: block;
+}
+
+.bottom .classify .font-b {
+    float: right;
+}
+
+.bottom .classify .xian-b {
+    width: 100%;
+    height: 2px;
+    float: left;
+    background-color: #b4b4b4;
+    border: none;
+}
+
+.bottom .box-c-b {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.bottom .table-b {
+    width: 100%;
+    height: 245px;
+    text-align: left;
+    padding: 0 8px;
+}
+
+.bottom .table-b tr {
+    display: flex;
+}
+
+.bottom .table-b tr td {
+    width: 238px;
+    font-size: 15px;
+    font-family: "黑体";
+    cursor: pointer;
+    display: block;
+    margin-top: 15px;
+}
+
+.bc-bottom {
+    width: 100%;
+    height: 150px;
+    background-color: #313131;
+    overflow: hidden;
+}
+
+.bc-bottom .bottom-box {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.bc-bottom .bottom-box .box-left {
+    float: left;
+    width: 215px;
+    margin: 5px 10px;
+}
+
+.bc-bottom .bottom-box .box-left a {
+    font-size: 14px;
+    margin-top: 15px;
+    color: #cfcfc5;
+    display: block;
+}
+
+.bc-bottom .bottom-box .box-right {
+    width: 215px;
+    float: right;
+    margin: 10px 78px;
+    border: 1px solid #808080;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.bc-bottom .bottom-box .box-right a {
+    margin: 15px 20px;
+    font-size: 14px;
+    color: #cfcfc5;
+    display: block;
+}
